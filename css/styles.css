@@ -1,3 +1,7 @@
-body{
-    background-color: yellowgreen;
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #ccc;
 }
