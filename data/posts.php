@@ -24,9 +24,9 @@
     ],
     [
       'id' => 4,
-      'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
+      'title' => 'Código Aberto',
+      'description' => 'Dicas práticas, tutoriais e reflexões sobre o universo da programação. Aqui você encontra conteúdo acessível sobre desenvolvimento web, boas práticas, ferramentas modernas e experiências do dia a dia de quem vive a tecnologia. Seja bem-vindo ao espaço onde o conhecimento é compartilhado linha por linha.',
+      'tags' => ['programação', 'desenvolvimento', 'tutorial', 'tecnoogia'],
       'img' => 'prog-4.jpg'
     ],
   ];

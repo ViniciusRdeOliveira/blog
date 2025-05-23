@@ -31,5 +31,4 @@ include_once("data/categories.php");
                 <li> <a href="<?=$BASE_URL?>/contato.php"class="nav-link">Contato</a></li>
             </ul>
         </nav>
-        Template Cabeçalho
     </header>
