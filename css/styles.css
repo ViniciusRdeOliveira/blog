@@ -116,8 +116,8 @@ main{
 
 }
 
-post-box .post-title a:hover{
-    color: #999;  
+.post-box .post-title a:hover{
+    color: #666;  
 }
 
 .post-box .post-description{
@@ -170,6 +170,51 @@ post-box .post-title a:hover{
     font-style: italic;
     margin-bottom: 40px;
 }
+
+.img-container {
+   margin-bottom: 30px;
+
+}
+
+.img-container img {
+    width: 60%;
+}
+
+/*POST ASIDE*/
+
+.nav-container{
+    grid-area: sidebar;
+}
+
+#tags-title, #categories-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
+
+#tag-list, #categories-list{
+    list-style: none;
+}
+
+#tag-list li, #categories-list li{
+    margin-bottom: 10px;
+
+}
+#tag-list a , #categories-list a{
+    color: #666;
+    transition: .5s;         
+}
+
+#tag-list a:hover, #categories-list a:hover{
+    color: #000;
+}
+
+
+
 /* footer*/
 
 footer{
@@ -180,4 +225,57 @@ footer{
     background-color: #000;
     color: #FFF;
     padding: 50px 0;
+}
+
+
+/*MOBILE*/  
+
+@media(max-width:480px) {
+    /*HOME*/
+    
+    header{
+        width: 100%;
+        
+    }
+
+    #logo{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 50px;
+         
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #title-container{
+        min-width: 100%;
+        margin-top: 20px;
+    }
+
+    #post-container {
+        margin-top: 20px;
+    }
+    
+    .post-box{
+        flex: 100% 1 0;
+        padding:  15px;
+        margin: 0;
+    }
+    /*POST*/
+
+    #post-container{
+        grid-template-columns: 100%;
+        padding: 15px;
+        grid-template-areas: "main"
+        "sidebar"; 
+    }
+
+    .img-container img{
+        width: 100%;
+
+    } 
 }
