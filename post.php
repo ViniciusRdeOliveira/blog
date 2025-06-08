@@ -32,8 +32,7 @@ if(isset($_GET['id'])){
             Eligendi velit ut exercitationem aliquam aliquid autem nisi molestiae vitae voluptates ullam! Cum perferendis rem fugit! Sed nobis, quam enim non incidunt, ab facilis, voluptatum maxime veritatis reiciendis animi saepe.
             Deleniti nobis nesciunt fugit consequuntur sapiente? Cum ipsum iusto magnam rem assumenda odio ipsa commodi nisi hic nihil nemo eligendi, corporis doloribus ipsam temporibus? Facilis harum libero nihil ipsam sint.</p>
         </div>
-    </main>
-    <aside id="nav-container">
+         <aside id="nav-container">
         <h3 id="tags-title">Tags</h3>
         <ul id='tag-list'>
             <?php foreach($currentPost['tags'] as $tag): ?>
@@ -47,6 +46,9 @@ if(isset($_GET['id'])){
             <?php endforeach; ?>
         </ul>
     </aside>
+        
+    </main>
+   
 <?php 
 include_once("templates/footer.php");
 ?>
